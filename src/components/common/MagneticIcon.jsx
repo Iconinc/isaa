@@ -2,7 +2,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-const MagnetIcon = ({ icon }) => {
+const MagnetIcon = ({ icon, click }) => {
   const ref = useRef(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -30,6 +30,7 @@ const MagnetIcon = ({ icon }) => {
       whileTap={{ scale: 0.6 }}
       animate={{ x, y }}
       transition={{ type: "spring", stiffness: 150, damping: 10 }}
+      onClick={click}
     >
       {icon}
     </motion.div>

@@ -19,3 +19,9 @@ body{
     color:#afa18f;
 }
 
+
+.flexer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
