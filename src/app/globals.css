@@ -15,7 +15,14 @@ body{
     font-family: 'Avant Garde Book BT';
 }
 
-.white{
-    color:#afa18f;
+*{
+    transition: all ease-in-out 0.2s;
 }
 
+
+
+@layer components {
+  .flexer {
+    @apply flex justify-center items-center;
+  }
+}
