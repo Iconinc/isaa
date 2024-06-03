@@ -21,7 +21,7 @@ const AdminLogo = () => {
 
       {!isActive &&
         <div className='flexer gap-2'>
-          <form className="border border-red-400 rounded-md flex gap-1 justify-center">
+          <form className="border border-red-500 rounded-md flex gap-1 justify-center">
             <Input value={Name1} change={(e) => setName1(e.target.value)} />
             <Input value={Name2} change={(e) => setName2(e.target.value)} />
             <button type="submit" className="bg-red-400 px-4 py-2 rounded-sm border-none outline-none"> <GrUpdate /> </button>
