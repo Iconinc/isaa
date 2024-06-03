@@ -6,6 +6,7 @@ import AdminAbout from '@/components/admin/About'
 import AdminExperience from '@/components/admin/Experience'
 import AdminWorks from '@/components/admin/Works'
 import AdminFooter from '@/components/admin/Footer'
+import AdminProjects from '@/components/admin/Project'
 
 const Admin = () => {
   return (
@@ -15,6 +16,7 @@ const Admin = () => {
       <AdminHero />
       <AdminAbout />
       <AdminExperience />
+      <AdminProjects/>
       <AdminWorks/>
       <AdminFooter/>
 
