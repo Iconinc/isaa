@@ -16,7 +16,7 @@ const AdminFooter = () => {
     const [reveredvalues, setReversedValues] = useState('Im a selectively skilled product designer with strong focus on producing high quality & impactful digital experience.')
 
     return (
-        <AdminLayout title="Footer" classes="lg:grid-cols-1">
+        <AdminLayout title="Footer" classes="lg:!grid-cols-1">
             <AdminCard classes="bg-slate-800 hover:bg-slate-700/50 !p-4 grid grid-cols-1 lg:grid-cols-3">
                 <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800 hover:bg-slate-800">
                     <h1 className='text-red-500'>Linkedin</h1>
