@@ -7,6 +7,7 @@ import { GrUpdate } from "react-icons/gr";
 import AdminLayout from './AdminLayout';
 import AdminCard from '../common/card/AdminCard';
 import Input from './Input';
+import { MdOutlineAdd } from "react-icons/md";
 
 
 const AdminFooter = () => {
@@ -15,63 +16,41 @@ const AdminFooter = () => {
     const [reveredvalues, setReversedValues] = useState('Im a selectively skilled product designer with strong focus on producing high quality & impactful digital experience.')
 
     return (
-        <AdminLayout title="Footer" classes="lg:grid-cols-3">
-            <AdminCard classes="bg-slate-800 hover:bg-slate-700/50">
-                {isActive ?
-                    <>
-                        <h1 className='text-xl md:text-3xl font-black text-center px-[8vw] md:px-[20vw]'>
-                            {values}
-                        </h1>
-                        <MagnetIcon icon={<MdModeEditOutline />} click={() => setIsActive(false)} />
-                    </>
-                    :
-                    <div className='flexer flex-col gap-4 w-full'>
-                        <form className="border border-red-500 rounded-md flex gap-1 justify-center w-[90%]">
-                            <Input value={values} change={(e) => setValues(e.target.value)} classes="w-full bg-transparent p-8" />
-                            <button type="submit" className="bg-red-400 px-4 py-2 rounded-sm border-none outline-none"> <GrUpdate /> </button>
-                        </form>
-                        <MagnetIcon icon={< IoCloseSharp />} click={() => setIsActive(true)} />
-                    </div>
-
-                }
-            </AdminCard>
-            <AdminCard classes="bg-slate-900 hover:bg-slate-900/50">
-                {isActive ?
-                    <>
-                        <h1 className='text-xl md:text-3xl font-black text-center px-[8vw] md:px-[20vw]'>
-                            {reveredvalues}
-                        </h1>
-                        <MagnetIcon icon={<MdModeEditOutline />} click={() => setIsActive(false)} />
-                    </>
-                    :
-                    <div className='flexer flex-col gap-4 w-full'>
-                        <form className="border border-red-500 rounded-md flex gap-1 justify-center w-[90%]">
-                            <Input value={reveredvalues} change={(e) => setReversedValues(e.target.value)} classes="w-full bg-transparent p-8" />
-                            <button type="submit" className="bg-red-400 px-4 py-2 rounded-sm border-none outline-none"> <GrUpdate /> </button>
-                        </form>
-                        <MagnetIcon icon={< IoCloseSharp />} click={() => setIsActive(true)} />
-                    </div>
-
-                }
-            </AdminCard>
-            <AdminCard classes="bg-slate-900 hover:bg-slate-900/50">
-                {isActive ?
-                    <>
-                        <h1 className='text-xl md:text-3xl font-black text-center px-[8vw] md:px-[20vw]'>
-                            {reveredvalues}
-                        </h1>
-                        <MagnetIcon icon={<MdModeEditOutline />} click={() => setIsActive(false)} />
-                    </>
-                    :
-                    <div className='flexer flex-col gap-4 w-full'>
-                        <form className="border border-red-500 rounded-md flex gap-1 justify-center w-[90%]">
-                            <Input value={reveredvalues} change={(e) => setReversedValues(e.target.value)} classes="w-full bg-transparent p-8" />
-                            <button type="submit" className="bg-red-400 px-4 py-2 rounded-sm border-none outline-none"> <GrUpdate /> </button>
-                        </form>
-                        <MagnetIcon icon={< IoCloseSharp />} click={() => setIsActive(true)} />
-                    </div>
-
-                }
+        <AdminLayout title="Footer" classes="lg:grid-cols-1">
+            <AdminCard classes="bg-slate-800 hover:bg-slate-700/50 !p-4 grid grid-cols-1 lg:grid-cols-3">
+                <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800 hover:bg-slate-800">
+                    <h1 className='text-red-500'>Linkedin</h1>
+                    <h2 className='text-2xl'>NSABIMANA Isaa</h2>
+                    <h2 className='text-sm'>https://www.linkedin.com/in/issansabimana/</h2>
+                </div>
+                <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800">
+                    <h1 className='text-red-500'>Instagram</h1>
+                    <h2 className='text-2xl'>NOT TIKTOK</h2>
+                    <h2 className='text-sm'>https://www.linkedin.com/in/issansabimana/</h2>
+                </div>
+                <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800">
+                    <h1 className='text-red-500'>Linkedin</h1>
+                    <h2 className='text-2xl'>NSABIMANA Isaa</h2>
+                    <h2 className='text-sm'>https://www.linkedin.com/in/issansabimana/</h2>
+                </div>
+                <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800">
+                    <h1 className='text-red-500'>Instagram</h1>
+                    <h2 className='text-2xl'>NOT TIKTOK</h2>
+                    <h2 className='text-sm'>https://www.linkedin.com/in/issansabimana/</h2>
+                </div>
+                <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800">
+                    <h1 className='text-red-500'>Linkedin</h1>
+                    <h2 className='text-2xl'>NSABIMANA Isaa</h2>
+                    <h2 className='text-sm'>https://www.linkedin.com/in/issansabimana/</h2>
+                </div>
+                <div className="border border-slate-900 flex flex-col gap-2 p-4 items-start justify-start w-full hover:bg-slate-800">
+                    <h1 className='text-red-500'>Instagram</h1>
+                    <h2 className='text-2xl'>NOT TIKTOK</h2>
+                    <h2 className='text-sm'>https://www.linkedin.com/in/issansabimana/</h2>
+                </div>
+                <div className="flexer">
+                <MagnetIcon icon={< MdOutlineAdd />} />
+                </div>
             </AdminCard>
         </AdminLayout>
     )
