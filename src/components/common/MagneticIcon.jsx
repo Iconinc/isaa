@@ -25,7 +25,7 @@ const MagnetIcon = ({ icon, click }) => {
       ref={ref}
       onMouseMove={MouseMove}
       onMouseLeave={MouseLeave}
-      className="flex p-6 z-50 cursor-pointer hover:bg-red-500 rounded-full duration-150 white hover:text-black"
+      className="flex p-6 z-50 cursor-pointer hover:bg-[#9bec39] rounded-full duration-150 white hover:text-black"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.6 }}
       animate={{ x, y }}

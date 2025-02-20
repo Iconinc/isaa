@@ -1,8 +1,8 @@
 .titles{
     width: 100%;
-    border-top: 1px solid rgba(183, 171, 152, 0.25);
+    border-top: 1px solid #aabc98;
     .title{
-        border-bottom: 1px solid rgba(183, 171, 152, 0.25);
+        border-bottom: 1px solid #aabc98;
         cursor: default;
         position: relative;
         z-index: 2;
@@ -12,12 +12,12 @@
 
             p{
                 display: inline-block;
-                color: #b7ab98;
+                color: #aabc98;
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 1vw;
                 line-height: 4vw;
-                margin: 0px;
+                margin: 0;
                 position: relative;
                 z-index: 2;
                 &:nth-of-type(2){

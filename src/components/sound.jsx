@@ -6,7 +6,7 @@ const Sound = () => {
 
   return (
     <button
-      className="white fixed bottom-0 right-0 mb-4 md:mb-12 mr-4 md:mr-12 z-30 uppercase text-xs duration-150"
+      className="text-green-100 fixed bottom-0 right-0 mb-4 md:mb-12 mr-4 md:mr-12 z-30 uppercase text-xs duration-150"
       onClick={() => setMod((prev) => !prev)}
     >
       Sound {mod ? "on" : "off"}

@@ -1,43 +1,35 @@
 const Projects = [
   {
-    title: "Porject 1",
+    title: "Icon.v1 Agency",
     description:
-      "Originally developer from Rwanda, Kigali-based developer Nsabimana Isaa is a young creative brimming with talent and ideas.",
-    src: "project1.png",
-    link: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn:li:fsd_profile:ACoAADGve0EBOCn5vWPttlpU8_DNAW7_gWwHavI&keywords=nsabimana%20issa&origin=RICH_QUERY_SUGGESTION&position=1&searchId=4abd5d6b-3461-4bbc-bcdf-26f5f023be47&sid=arA&spellCorrectionEnabled=false",
-    color: "#ec4e39",
+        "Icon.v1 Agency is a sleek, innovative landing page design for a modern creative agency. Crafted by Nsabimana Isaa, this project reflects a fusion of artistic vision and digital expertise honed in Kigali, Rwanda.",
+    src: "icon.png",
+    link: "https://dribbble.com/shots/25655960-Icon-v1-Agency-Landing-Page",
+    color: "#9bec39",
   },
   {
-    title: "Porject 2",
+    title: "Lunaroot.rw",
     description:
-      "Originally developer from Rwanda, Kigali-based developer Nsabimana Isaa is a young creative brimming with talent and ideas.",
-    src: "project1.png",
-    link: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn:li:fsd_profile:ACoAADGve0EBOCn5vWPttlpU8_DNAW7_gWwHavI&keywords=nsabimana%20issa&origin=RICH_QUERY_SUGGESTION&position=1&searchId=4abd5d6b-3461-4bbc-bcdf-26f5f023be47&sid=arA&spellCorrectionEnabled=false",
-    color: "#afa18f",
+        "Lunaroot.rw is an edgy project that brings the spirit of urban streetwear to life. Developed by Nsabimana Isaa, this design captures the vibrant energy and trendsetting aesthetics of Kigali's creative scene.",
+    src: "lunaroot.png",
+    link: "https://dribbble.com/shots/25656036-Lunaroot-rw-streetwear-UI-UX-Design",
+    color: "#778177",
   },
   {
-    title: "Porject 2",
+    title: "OWC Job listing",
     description:
-      "Originally developer from Rwanda, Kigali-based developer Nsabimana Isaa is a young creative brimming with talent and ideas.",
-    src: "project1.png",
-    link: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn:li:fsd_profile:ACoAADGve0EBOCn5vWPttlpU8_DNAW7_gWwHavI&keywords=nsabimana%20issa&origin=RICH_QUERY_SUGGESTION&position=1&searchId=4abd5d6b-3461-4bbc-bcdf-26f5f023be47&sid=arA&spellCorrectionEnabled=false",
-    color: "#ec4e39",
+        "OWC Job listing reimagines the job search experience with an intuitive and engaging design. Designed by Nsabimana Isaa, this project combines clarity and functionality, making the job hunt seamless and visually appealing.",
+    src: "owc.png",
+    link: "https://dribbble.com/shots/25656085-Job-Listing-Web-UI-UX",
+    color: "#9bec39",
   },
   {
-    title: "Porject 3",
+    title: "Non Profit Organisation",
     description:
-      "Originally developer from Rwanda, Kigali-based developer Nsabimana Isaa is a young creative brimming with talent and ideas.",
-    src: "project1.png",
-    link: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn:li:fsd_profile:ACoAADGve0EBOCn5vWPttlpU8_DNAW7_gWwHavI&keywords=nsabimana%20issa&origin=RICH_QUERY_SUGGESTION&position=1&searchId=4abd5d6b-3461-4bbc-bcdf-26f5f023be47&sid=arA&spellCorrectionEnabled=false",
-    color: "#afa18f",
-  },
-  {
-    title: "Porject 4",
-    description:
-      "Originally developer from Rwanda, Kigali-based developer Nsabimana Isaa is a young creative brimming with talent and ideas.",
-    src: "project1.png",
-    link: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn:li:fsd_profile:ACoAADGve0EBOCn5vWPttlpU8_DNAW7_gWwHavI&keywords=nsabimana%20issa&origin=RICH_QUERY_SUGGESTION&position=1&searchId=4abd5d6b-3461-4bbc-bcdf-26f5f023be47&sid=arA&spellCorrectionEnabled=false",
-    color: "#ec4e39",
+        "This project is a heartfelt design for a non-profit organization, emphasizing accessibility and community connection. Nsabimana Isaa's approach balances empathy with innovation, crafting a digital experience aimed at driving social impact.",
+    src: "wpf.png",
+    link: "https://dribbble.com/shots/25656110-Non-Profit-Organisation-UI-UX",
+    color: "#778177",
   },
 ];
 

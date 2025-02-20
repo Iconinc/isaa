@@ -25,7 +25,7 @@ const Works = () => {
   });
 
   return (
-    <main ref={container} className={styles.mainworks}>
+    <main ref={container} className={styles.mainworks}  id={'Work'}>
       {Projects.map((project, index) => {
         const targetScale = 1 - (Projects.length - index) * 0.05;
         return (

@@ -10,7 +10,7 @@ import AdminProjects from '@/components/admin/Project'
 
 const Admin = () => {
   return (
-    <div className='text-white w-full p-8'>
+    <div className='text-green-100 w-full p-8'>
       <AdminLogo />
 
       <AdminHero />
